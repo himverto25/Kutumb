@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>North India's Best Designer</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  {{>styles}}
+
+</head>
+
+<body>
+  {{>nav}}
+  <br>
+  <br>
+  <br>
+  {{!-- hero section starts --}}
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div
+            class="col-md-6 col-12 hero text order-md-0 order-1 d-flex justify-content align-items-start flex-column">
+            <h1 class="hero-text">Welcome to a realm<br>where your dream spaces<br> come to life</h1>
+            <p style="font-size:20px; font-weight:normal">An ensemble of <br>skilled interior designers and home
+              planners
+            </p>
+            <br>
+            <a href="#aboutid" class="btn btn-success">Read More</a>
+          </div>
+          <div class="col-md-6 col-12 hero text order-md-1 order-0">
+            <figure>
+              <img class="srcimg"
+                src="https://img.freepik.com/free-photo/luxury-modern-living-room-illuminated-by-lantern-generated-by-ai_188544-21373.jpg?w=1060&t=st=1692602596~exp=1692603196~hmac=9d96d32c9b7e6f1a0e85b737e0b27f03a8834ac1be3e4ac6e70da08e12a9995a"
+                height="350px" width="500px">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{!-- hero section ends --}}
+
+  {{!-- about section starts --}}
+  <br><br>
+  {{>about}}
+  {{!-- about section ends --}}
+
+  {{!-- services section starts --}}
+  {{>services}}
+  {{!-- services section ends --}}
+
+  <div class="service-style" style="margin-bottom: 15px !important;">
+    <h1 class="text-center main-heading">Reach Us</h1>
+    <p class="text-center sub-heading">Share Your Vision, Shape Your Space</p>
+  </div>
+  {{>maps}}
+
+  {{>contact}}
+
+  {{>footer}}
+
+  <script src="../jq/jquery.js"></script>
+  <script src="../js/bootstrap.js"></script>
+</body>
+
+</html>
